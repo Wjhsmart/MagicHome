@@ -1,0 +1,39 @@
+body a {
+	color: #ccc;
+}
+.company_case div {
+	margin-top: 20px;
+}
+.company_case img {
+	height: 250px;
+}
+.company_case h5 {
+	text-align: center;
+}
+.company_case p {
+	text-align: center;
+}
+.about {
+	margin: 50px auto;
+}
+.des_ul li {
+	margin: 10px -10px;
+}
+.product_img img {
+	width: 350px;
+	height: 250px;
+}
+.product_img h5 {
+	color: red;
+	margin-top: 20px;
+}
+.head_icon img {
+	height: 200px;
+}
+.col {
+	background-color: #97262A; 
+	padding: 5px 10px; 
+	color: white;
+	font-size: 12px;
+}
+

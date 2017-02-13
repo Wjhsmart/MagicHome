@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>WSCJSPHomeInstallPlatformProj</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <error-page>
+  	<error-code>404</error-code>
+  	<location>/error/error_404.jsp</location>
+  </error-page>
+  
+  <error-page>
+  	<error-code>500</error-code>
+  	<location>/error/error_500.jsp</location>
+  </error-page>
+  
+  <filter>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>com.wsc.filter.EncodingFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <resource-ref>
+    <res-ref-name>wsc/sqlserver</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+  
+  <servlet>  
+	<description>用于生成验证码</description>  
+	<display-name>生成验证码</display-name>  
+	<servlet-name>GetCaptcha</servlet-name>  
+	<servlet-class>com.wsc.controller.GetCaptcha</servlet-class>  
+  </servlet>  
+	
+  <servlet-mapping>  
+	<servlet-name>GetCaptcha</servlet-name>  
+	<url-pattern>/getcaptcha.sl</url-pattern>  
+  </servlet-mapping> 
+  
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.wsc.controller.AdminServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/admin/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>PageServlet</servlet-name>
+    <servlet-class>com.wsc.controller.PageServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>PageServlet</servlet-name>
+    <url-pattern>/page/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>CustomerServlet</servlet-name>
+    <servlet-class>com.wsc.controller.CustomerServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>CustomerServlet</servlet-name>
+    <url-pattern>/customer/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>CompanyServlet</servlet-name>
+  	<servlet-class>com.wsc.controller.CompanyServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>CompanyServlet</servlet-name>
+  	<url-pattern>/company/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>SupplyServlet</servlet-name>
+  	<servlet-class>com.wsc.controller.SupplyServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>SupplyServlet</servlet-name>
+  	<url-pattern>/supply/*</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>DesignerServlet</servlet-name>
+  	<servlet-class>com.wsc.controller.DesignerServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>DesignerServlet</servlet-name>
+  	<url-pattern>/designer/*</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

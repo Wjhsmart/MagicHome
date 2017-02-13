@@ -1,0 +1,276 @@
+/*login样式开始*/
+*{
+	margin:0px;
+	padding:0px;
+}
+.nav{
+	width:100%;
+	height:100px;
+}
+.nav div{
+	float:left;
+	margin-left:20px;
+}
+.logo{
+	border:1px #ccc soild;	
+	
+}
+.hello_text{
+	width:330px;
+	float:left;
+	margin-top:50px;
+	margin-left:30px;
+}
+.img_radius {
+	border-radius: 10%; 
+	max-width: 400px;
+	margin-top: 60px;
+}
+.have {
+	text-align: right;
+	margin-right: 170px;
+}
+.have a {
+	color: #ccc;
+}
+.form_div{
+	width:420px;
+	height:300px;
+	top:60px;
+	left:650px;
+	position:relative;
+	border:1px solid #ccc;
+}
+.text_a{
+	width:400px;
+	height:30px;
+	text-align:center;
+	margin-top:20px;
+	
+}
+.text_a a{
+	text-decoration:none;
+	border-bottom:2px solid #00b161;
+	color: #00b161;
+}
+.bottom_common{
+	margin-top:350px;
+}
+.text_input_checkbox input{
+	width:12px;
+	height:12px;
+	vertical-align:top;
+}
+.text_input_checkbox{
+	margin-left:40px;
+	margin-top:30px;
+}
+.text_input_checkbox label{
+	font-size:12px;
+	vertical-align: top;
+}
+.text_input_checkbox a{
+	text-decoration:none;
+	color:black;
+	font-size:12px;
+	margin-left:160px;
+	vertical-align: top;
+}
+.input_submit input{
+	border:none;
+	background-color: red;
+	color:#fff;
+	width:300px;
+	height:30px;
+}
+.input_submit{
+	margin-top:20px;
+	margin-left:40px;
+}
+.text_qq_weibo{
+	margin-top:10px;
+	margin-left:40px;
+	width:460px;
+	height:20px;
+	vertical-align: top;
+}
+.text_qq_weibo a{
+	text-decoration:none;
+	font-size:12px;
+	color:black;
+	vertical-align: top;
+}
+.text_qq_weibo img{
+	width:12px;
+	height:12xp;
+	vertical-align: top;
+}
+.qq{
+	width:15px;
+	height:15xp;
+	margin-left:20px;
+	vertical-align: top;
+}
+.free{
+	font-size:12px;
+	text-decoration:none;
+	color:black;
+	margin-left:70px;
+}
+.clear{
+	clear:both;
+}
+.bj_img{
+	width:400px;
+	height:320px;
+	position:absolute;
+	left:250px;
+	top:200px;
+}
+.logo_container{
+	width:80%;
+	height:100px;
+	margin:auto;
+}
+.logo_container img{
+	float:left;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+.hello_left{
+	float:left;
+}
+.hello_left h2{
+	margin-left:30px;
+	padding-top:30px;
+}
+/*rigister样式开始*/
+
+.clear{
+	clear:both;
+}
+.max_div{
+	position:relative;
+}
+.head_div{
+	width:100%;
+	height:auto;
+	position: relative;
+}
+.top_cj{
+	width:100%;
+	heitht:60px
+}
+.logo{
+	width:auto;
+	height:auto;
+}
+
+.hello_text h3{
+	padding-top:10px;
+	float:left;
+	margin-left:30px;
+	margin-top:10px;
+	height:50px;
+}
+.form{
+	border: 1px solid #ccc;
+	width:380px;
+	height:auto;
+	position:relative;
+	left:800px;
+	top:20px;
+	padding-bottom: 70px;
+}
+.img{
+	width:400px;
+	height:400px;
+	position:relative;
+	left:300px;
+}
+.nav_text{
+	text-align:center;
+	width:389px;
+	padding-top:30px;
+}
+.nav_text a{
+	text-decoration:none;
+	letter-spacing:5px;
+	color:black;
+	display: inline-block;
+	width: 100px;
+}
+.nav_text hr{
+	width:240px;
+	margin-left:70px;
+}
+.nav_text #name{
+	border-bottom:2px solid #00b161;
+	color:#00b161;
+}
+.input_type{
+	margin-left:40px;
+	margin-top:20px;
+}
+.input_type input{
+	width:300px;
+	height:30px;
+}
+
+.radio{
+	margin-left:120px;
+	margin-top:20px;
+}
+.select{
+	margin-left:40px;
+	margin-top:20px;
+}
+.select select{
+	width:100px;
+	height:30px;
+}
+.select #selects{
+	width:96px;
+	height:30px;
+}
+.experience{
+	margin-left:40px;
+	margin-top:20px;
+}
+.experience select{
+	width:90px;
+	height:30px;
+}
+.input_checkbox{
+	margin-left:40px;
+	margin-top:20px;
+}
+.input_checkbox input{
+	width:12px;
+	height:12px;
+	vertical-align: top;
+}
+.input_checkbox a{
+	text-decoration:none;
+	font-size:12px;
+	color:#00b161;
+	vertical-align: top;
+}
+.input_checkbox label{
+	font-size:12px;
+	vertical-align: top;
+}
+.bj_img{
+	width:400px;
+	height:320px;
+	position: absolute;
+	left:250px;
+	top:100px;
+}
+.bottom_nav{
+	background-color:#2a2017;
+	margin-top:300px;
+	padding-top:50px;
+	height:150px;
+	width:auto;
+}

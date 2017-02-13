@@ -1,0 +1,170 @@
+.title {
+	font-weight: bold;
+}
+.table {
+	font-family: verdana,arial,sans-serif;
+	font-size:14px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+.table tr {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #dedede;
+}
+.table tr td {
+	border-width: 1px;
+	padding: 10px;
+	border-style: solid;
+	border-color: #666666;
+	background-color: #ffffff;
+	text-align: center;
+	width: auto;
+}
+a:link {
+	text-decoration: none;
+}
+ul,ol,li {
+	list-style:none;
+	margin: 10px;
+}
+.container {
+	text-align: left;
+}
+.container em {
+	margin-left: 20px;
+}
+.update {
+	width: 100px; 
+	height: 30px; 
+	line-height: 30px;
+	font-weight: bold;
+	background: orange;
+	text-align: left;
+	border-radius: 8%;
+	box-shadow: #666 0px 0px 10px; /* 添加阴影效果 */
+}
+input {
+	
+}
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.form em {
+	width: 100px;
+	display: inline-block;
+	
+}
+
+.form span {
+	font-size: 12px;
+	color: red;
+}
+
+.btn {
+	width: 150px;
+	height: 30px;
+	background: orange;
+	color: white;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.case_img img {
+	width: 100px;
+	height: 60px;
+}
+.h3_red {
+	color: red;
+}
+.company {
+	width: 80%;
+	height: 250px;
+	margin: 40px 10px;
+}
+.company img {
+	max-width: 40%;
+	margin-top: 20px;
+}
+.company_right {
+	width: 50%;
+	height: 250px;
+	float: right;
+	margin-right: 80px;
+}
+.company_right span {
+	word-break:break-word; 
+}
+.clear {
+	clear: both;
+}
+.company_case {
+	width: 78%;
+	height: auto;
+	margin: 20px 0px;
+}
+.company_container {
+	width: 40%;
+	height: auto;
+	float: left;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+.company_container div {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.company_container img {
+	width: 87%;
+	height: 150px;
+}
+.container_1 {
+	width: 100%;
+}
+.container_2 {
+	width: 45%;
+}
+.container_2 img {
+	max-height: 60px;
+}
+.case_des {
+	width: 50%;
+	height: auto;
+	margin: 10px 400px;
+	padding-top: 1px;
+}
+.case_des h3 {
+	margin: 40px 0px 10px 40px;
+}
+.case_des ul li {
+	margin: 20px;
+}
+.case_des span {
+	font-weight: bold;
+	word-break:break-word; 
+}
+.logo_li {
+	position: relative;
+	height: 100px;
+	line-height: 100px;
+}
+.logo {
+	position: absolute;
+	top: 0px;
+	left: 80px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.check_img {
+	display: none;
+}
+.admin_mes span {
+	font-weight: bold;
+}
